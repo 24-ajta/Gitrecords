@@ -59,20 +59,25 @@ h2{
     text-align: center;
     color: green;
 }
-.readmore{
-    background-color: greenyellow;
-}
-.main{
-    
+
+.readmore {
+    background-color: rgb(145, 214, 145);
+} 
+h3{
     font-size: 30px;
     color: rgb(2, 34, 2);
     position: absolute;
-    top: 800px;
+    top: 1350px;
+    
     left: 700px;
+    
     
 }
 .readmore p{
     color:rgb(4, 75, 4);
     position: absolute;
-    top: 1600px;
+    top: 1430px;
+   
+    left: 50px;
+    right: 50px;
 }
