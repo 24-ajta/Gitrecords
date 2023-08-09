@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 li{
    
     display: inline;
@@ -11,4 +12,19 @@ li{
     height: 300px;
 
     padding: 50px;
+=======
+li{
+   
+    display: inline;
+    font-size: 30px;
+    padding: 4px;
+    float: right;
+}
+.pic{
+    display: flex;
+    width: 250px;
+    height: 300px;
+
+    padding: 50px;
+>>>>>>> 396edc9 (msg)
 }

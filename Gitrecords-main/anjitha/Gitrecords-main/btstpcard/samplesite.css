@@ -1,0 +1,15 @@
+#r1{
+    background-color: orangered;
+    color: white;
+}
+ul li{
+    text-decoration: none;
+}
+#im1 img{
+    width: 600px;
+    height: 300px;
+    margin-left: 80px;
+}
+#cd1{
+    height: 300px;
+}

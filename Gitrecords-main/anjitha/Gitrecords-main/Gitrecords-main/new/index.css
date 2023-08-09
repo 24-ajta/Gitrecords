@@ -1,0 +1,50 @@
+body{
+    background-color:pink;
+    background-image: url(wottagirl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color: brown;
+   
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: beige;
+}
+
+.navb ul li{
+   
+    display: inline;
+    text-decoration: none;
+    float: right;
+    font-size: 15px;
+    margin-top: 5px;
+    /* background-color: bisque; */
+    
+ 
+    /* padding: 5px; */
+    margin-left: 20px;
+    /* padding-bottom: 25px; */
+   
+     
+} 
+li:hover{
+    background-color: blanchedalmond;
+}
+/* .navb{
+    margin-top:10px ;
+    height: 45px;
+    border: 1px solid palevioletred;
+    background-color: bisque;
+} */
+ .imge{
+   margin-top: 300px;
+   margin-left: 300px;
+   position: fixed; 
+   width: 200px;
+   height: 1500px;
+
+    
+} 
