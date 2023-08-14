@@ -62,8 +62,53 @@
            margin-block-start: 20px;
            
         }
-        #fm card{
-            height: 600px;
+        #fm {
+            height: 300px;
+        }
+        form input{
+            border-radius: 20px;
+        }
+        #cd6{
+            margin-left: 70px;
+        }
+        #cdd{
+            background-color: rgb(39, 37, 37);
+        }
+        #cdd2{
+            border: none;
+            text-decoration: none;
+        }
+        #cdd2 li a{
+            color: grey;
+        }
+        #mid{
+            height: 500px;
+        }
+        #mid1{
+            margin-top: 120px;
+            height: 50px;
+        }
+        .mid2{
+            margin-top: 50px;
+        }
+        #imgg{
+            width: 100%;
+            height: 500px;
+        }
+        #cdd1{
+            margin-top: 32px;
+        }
+        #lst ul{
+            margin-left: 700px;
+        }
+        #lst ul li {
+            list-style-type: disc;
+            margin-left: 50px;
+            
+        }
+        #lnk{
+            text-decoration: none;
+            color: grey;
         }
     </style>
     <div class="card">
@@ -172,16 +217,19 @@
         <div class="card" id="im2">
            
             <!-- <div class="container-fluid"> -->
-                <div class="row">
+                <div class="row" id="mid">
                     
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col p-2 ms-5">
+                                <div class="mid2">
+
+                                
                                 <h5 class="card-title" style="color: white;">Professional Cleaning</h5>
                                 <h5 class="card-title mb-2" style="color: white;">Services Provider</h5>
                                 <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, accusamus dolore reprehenderit adipisci enim !</p>
-                               
-                        <div class="row ms-2">
+                            </div>
+                        <div class="row ms-5" id="mid1">
                             <div class="col-md-3 p-5" id="box">
                                 <div class="card text-center">
                                 <div class="card-body">
@@ -213,16 +261,18 @@
                     </div>
                 </div>
             </div>
-                    <div class="col-md-3 p-5" id="fm">
-                        <div class="card">
-                            <form >
+                    <div class="col-md-3 p-5" >
+                        <div class="card" id="fm">
+                            <form style="margin-left: 50px;">
                                 <label>First Name</label><br>
-                                <input type="text" id="b1"><br>
+                                <input type="text" ><br><br>
                                 <label>Last Name</label><br>
-                                <input type="text" id="b1"><br>
+                                <input type="text"><br><br>
                                 <label>Password</label><br>
-                                <input type="password" id="b1"><br><br>
-                                <a href="#" class="btn btn-primary" id="b2">Get Started</a>
+                                <input type="password" ><br><br>
+                                <button type="button" class="btn rounded-pill" style="background-color: orangered; color: white;">
+                                     Get Started</button>
+                                
 
                             </form>
                         </div>
@@ -232,62 +282,146 @@
         </div>
         <!-- </div> -->
         </div>
-        <div class="card" id="cd5">
+        <div class="card" id="lst">
 
         
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a href="#" class="nav-link" style="color: orangered;">All</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Nature</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Fashion</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Wedding</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Studio</a>
-            </li>
+        <ul class="nav nav-tabs" >
+           
+            <li style="color: orangered;">All</li>
+            <li>Nature</li>
+            <li>Fashion</li>
+            <li>Wedding</li>
+            <li>Studio</li>
         </ul>
     </div>
     <div class="card">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="bird.jpg" alt="">
+                    <img src="bird.jpg" alt="" id="imgg">
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="waterfall.jpg" alt="">
+                    <img src="waterfall.jpg" alt="" id="imgg">
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="walking.jpg" alt="">
+                    <img src="walking.jpg" alt="" id="imgg">
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="sea.jpg" alt="">
+                    <img src="sea.jpg" alt="" id="imgg">
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="swimmimg.jpg" alt="">
+                    <img src="swimmimg.jpg" alt="" id="imgg">
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100 w-100">
-                    <img src="image.jpg" alt="">
+                    <img src="image.jpg" alt="" id="imgg">
                 </div>
             </div>
         </div>
     </div>
+    <!-- <div class="card" id="cdd"> -->
+        <div class="row" id="cdd">
+            <div class="col">
+
+            
+            <div class="row">
+
+            
+            <div class="col-md-10">
+                <h5 id="cd6" style="color: white;">Company Name</h5>
+            </div>
+            <div class="col-md-2" style="color: white;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                     <div class="col-md-2">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                     <div class="col-md-2">
+                        <i class="fa fa-google"></i>
+                    </div>
+                     <div class="col-md-2">
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                     <div class="col-md-2">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="row" id="cdd">
+        <div class="col-md-2">
+            <h5 class="card-title" style="color: white;">Extra links</h5>
+            <ul style="list-style: none; text-decoration: none; color: grey;">
+                <li ><a href="#" id="lnk">About Company</a></li>
+                <li><a href="#" id="lnk">Our Services</a></li>
+                <li><a href="#" id="lnk">Recent Projects Lists</a></li>
+                <li><a href="#" id="lnk">Latest News Blog</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h5  style="color: white;">List Of Services</h5>
+            <ul style="list-style: none; color: grey;">
+                
+                <li>Plumbing</li>
+                <li>Electrician</li>
+                <li>Furniture Moving</li>
+                <li>Replacing Wires</li>
+            </ul>
+        </div>
+        <div class="col-md-2" id="cdd1">
+            
+            <ul style="list-style: none; color: grey;">
+                
+                <li>Carpenter</li>
+                <li>Wall Painting</li>
+                <li>House Cleaning</li>
+                <li>AC & Refrigerator</li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <h5 class="card-title" style="color: white;">Support</h5>
+            <ul style="list-style: none; color: grey;">
+                <li>Documentation</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Services</li>
+                <li>24/7 Support</li>
+            </ul>
+           
+        </div>
+        <div class="col-md-4">
+            <h5  style="color: white;">Working Hours</h5>
+            <ul style="list-style: none; color: grey;">
+                <li>Monday:8AM-6AM</li>
+                <li>Tuesday:8AM-6AM</li>
+                <li>Wednesday:8am-6am</li>
+                <li>Thursday,Friday:8AM-6AM</li>
+                <li>Sunday:Closed</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card text-center" style="background-color: rgb(39, 36, 36);">
+            <div class="card-footer" style="color: grey;">
+                <i class="fa fa-copyright"></i>2020  &nbsp;  All Rights Reserved|Designed By
+            </div>
+        </div>
         
+    </div>
+    <!-- </div> -->
+   
         
 
     
