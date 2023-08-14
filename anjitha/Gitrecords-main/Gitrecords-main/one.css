@@ -1,0 +1,14 @@
+li{
+    display: inline;
+    font-size: 30px;
+    padding: 4px;
+    float: right;
+    margin-top: -42px;
+}
+.pic img{
+    /* display: flex; */
+    width: 220px;
+    height: 300px;
+
+    
+}

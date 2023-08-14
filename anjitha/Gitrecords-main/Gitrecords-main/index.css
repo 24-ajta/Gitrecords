@@ -1,0 +1,21 @@
+body{
+    background-color:lightpink;
+}
+ul{
+    float: right;
+    margin-top: -80px;
+    margin-left: 250px;
+}
+li{
+    display: inline;
+    font-size: 30px;
+    padding: 4px;
+    float: right;
+}
+.pic img{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+
+    padding: 5px;
+}
