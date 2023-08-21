@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(240, 233, 233);
+}
+h1{
+   
+    font-size: 30px;
+    color: brown;
+} 
+/* #icons i{
+    color: burlywood;
+} */
+i{
+    color: rgb(141, 92, 28);
+}
+#links a{
+    text-decoration: none;
+    color: rgb(165, 116, 52);
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+#r1{
+    margin-top: 20px;
+    background-color: bisque;
+    border: 3px solid rgb(92, 43, 43);
+}
+#r2{
+    background-color: bisque;
+    border: 3px solid rgb(92, 43, 43);
+}
+#imgg img{
+    width: 100%;
+    height: 600px;
+}
+#r3{
+    background-color: bisque;
+    border: 3px solid rgb(92, 43, 43);
+    /* padding: 20px; */
+}
+#lctn h5{
+    color: rgb(95, 10, 26);
+    text-decoration: underline;
+}
+#location ul li{
+    list-style-type: none;
+    color: rgb(117, 74, 18);
+}
