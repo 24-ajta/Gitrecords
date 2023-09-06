@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+
+#r1{
+    background-image: url(reliance/rel-1.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+  animation-name: imageAnimation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-delay: 0s;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 600px;
+}
+@keyframes imageAnimation{
+    0% {
+        background-size: 100% auto;
+      }
+      50% {
+        background-size: 110% auto;
+      }
+      100% {
+        background-size: 100% auto;
+      }
+}
+#r2{
+    background-image: url(reliance/rel-3.jpg);
+   -moz-animation: imageAnimation 30s linear infinite 0s;
+  animation-name: imageAnimation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-delay: 0s;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 600px;
+    
+}
+#r3{
+    background-image: url(reliance/rel-2.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r4{
+    background-image: url(reliance/rel-4.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r5{
+    background-image: url(reliance/rel-5.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r6{
+    background-image: url(reliance/rel-6.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r7{
+    background-image: url(reliance/rel-7.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r8{
+    background-image: url(reliance/rel-8.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r9{
+    background-image: url(reliance/rel-9.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r10{
+    background-image: url(reliance/rel-10.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r11{
+    background-image: url(reliance/rel-12.jpg);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+#r12{
+    background: rgba(0,0,0,0.75);
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    animation-name: imageAnimation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 600px;
+}
+
+h2,h3{
+    text-transform: uppercase;
+}
+#c1 h2{
+    color: black;
+}
+#c1 h3{
+    color: white;
+}
+#c2 h2{
+    color: burlywood;
+}
+#c2 h3{
+    color: white;
+}
+#c2 p{
+    color: white;
+}
+#c3 h2{
+    color: black;
+}
+#c3 h3{
+    color: white;
+}
+#c4 h2{
+    color: burlywood;
+}
+#c4 h3{
+    color: white;
+}
+#c4 p{
+    color: white;
+}
+#c5 h2{
+    color: black;
+}
+#c5 h3{
+    color: white;
+}
+#c6 h2{
+    color: burlywood;
+}
+#c6 h3{
+    color: white;
+}
+#c6 p{
+    color: white;
+}
+#c7 h2{
+    color: black;
+}
+#c7 h3{
+    color: white;
+}
+#c8 h2{
+    color: burlywood;
+}
+#c8 h3{
+    color: white;
+}
+#c8 p{
+    color: white;
+}
+#c9 h2{
+    color: black;
+}
+#c9 h3{
+    color: white;
+}
+#c10 h2{
+    color: burlywood;
+}
+#c10 h3{
+    color: white;
+}
+#c10 p{
+    color: white;
+}
+#c11 h2{
+    color: black;
+}
+#c11 h3{
+    color: white;
+}
+#c1{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+
+#c2{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+#c5{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+#c7{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+#c9{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+#c11{
+    position: relative;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+@keyframes example{
+    from{
+        top: 0px;
+    }
+    to{
+        left: 200px;
+    }
+}
+#c3{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    animation-name: reversed;
+    animation-duration: 5s;
+    
+}
+#c4{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    animation-name: reversed;
+    animation-duration: 5s;
+    
+}
+#c6{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    animation-name: reversed;
+    animation-duration: 5s;
+    
+}
+#c8{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    animation-name: reversed;
+    animation-duration: 5s;
+    
+}
+
+#c10{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 0px;
+    animation-name: reversed;
+    animation-duration: 5s;
+    
+}
+@keyframes reversed{
+    from{
+        top: 0px;
+    }
+    to{
+        right: 200px;
+    }
+}
+#c11 img{
+    height: 350px;
+    position: absolute;
+    margin-top: 30px;
+    
+    
+    
+}
+#c22 img{
+    position: absolute;
+    margin-top: 80px;
+    height: 430px;
+}
+#c33 img{
+    height: 450px;
+}
+#c88 img{
+    position: absolute;
+    
+    margin-top: 180px;
+    height: 400px;
+}
