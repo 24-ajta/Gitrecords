@@ -1,0 +1,90 @@
+.main_container{
+    
+   
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.main_contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 500px;
+    background-color: aliceblue;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: rgb(rgb(194, 178, 178), rgb(118, 128, 118), rgb(169, 169, 198));
+
+}
+a{
+    margin: 20px;
+}
+a[target='_blank']{
+    color: blueviolet;
+}
+a[target='_self']{
+    color: rgb(102, 98, 98);
+}
+.sub_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   
+}
+form input{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+input[type='text']{
+    border: 2px solid green;
+}
+input[type='email']{
+    border: 2px solid rgb(37, 101, 164);
+}
+input[type='password']{
+    border: 2px solid rgb(46, 12, 97);
+}
+input[type='submit']{
+    border: 2px solid rgb(155, 18, 68);
+}
+ul{
+    border: 2px solid black;
+    width: 50vw;
+    min-height: 250px;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    margin: 20px;
+}
+/* li:nth-child(even){
+    color: brown;
+}
+li:nth-child(odd){
+    color:cadetblue;
+}
+li:nth-child(2n+0){
+    color: aquamarine;
+} */
+/* Here n starts with 0,1,2... no 0 index are present.equation inside () refers to that particular index */
+
+/* li:nth-child(3n+3){
+    color: rgb(2, 30, 30);
+} */
+li:nth-child(2n-1){
+    color: crimson;
+}
