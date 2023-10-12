@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --primary-color :blue;
+    --danger-color:red;
+    --success-color:green;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--danger-color);
+    margin: 2px 9px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--success-color);
+}
+/* the properties are applied to p inside li which is inside div */
+/* div li p{
+    color: red;
+} */
+
+
+/* the properties are applied to any muber of p's inside a div which can also be child of any other elements also  */
+/* div p{
+    color: blueviolet;
+} */
+
+
+/* if p is right inside a div then the properties are applied  */
+/* div > p{
+    color: brown;
+} */
+
+/* applies style to paragraph right after div,p is the next sibling of div  */
+div + p{
+    color: cadetblue;
+}

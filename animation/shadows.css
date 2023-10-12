@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.card{
+    padding: 2rem;
+    margin: 2rem;
+    background-color:chocolate;
+    /* box-shadow: offset-x offset-y color; */
+    /* box-shadow: offset-x offset-y blur-radius color; */
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+    box-shadow: 10px 10px rgb(215, 186, 168);
+    box-shadow: -10px -10px rgb(215, 186, 168);
+    box-shadow: 10px 10px 10px rgb(174, 120, 86);
+    box-shadow: 10px 10px 10px 10px rgb(145, 103, 76);  
+    box-shadow: inset 10px 10px green;
+
+    /* multiple shadows  */
+    box-shadow: 10px 10px rgb(215, 186, 168),10px 10px 10px rgb(174, 120, 86);
+}
+.card h1{
+    /* text-shadow: offset-x offset-y color; */
+    /* text-shadow: offset-x offset-y blur-radius color; */
+    /* text-shadow: offset-x offset-y blur-radius spread-radius color; */
+    text-shadow: 2px 3px crimson;
+    text-shadow: -2px -5px rgb(159, 122, 129);
+    text-shadow: 2px 3px 10px rgb(42, 125, 136);
+    text-shadow: 2px 3px 10px 10px cadetblue;
+    text-shadow: 2px 3px crimson,2px 3px 10px rgb(74, 36, 87);
+}
